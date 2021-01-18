@@ -1,0 +1,12 @@
+.EP {
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 215, 221);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.row{
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-size: 1rem;
+   
+}
