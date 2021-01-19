@@ -15,7 +15,7 @@
     padding: 20px;
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border-radius: 50%;
   }
@@ -47,4 +47,9 @@
     color: rgb(218, 218, 218);
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+}
+.contact{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(218, 218, 218);
 }
