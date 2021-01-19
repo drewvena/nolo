@@ -47,3 +47,6 @@
   .img-link{
       margin-left: 9%;
   }
+  .flex-link{
+      justify-content: space-between;
+  }
