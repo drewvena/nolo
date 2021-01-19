@@ -1,14 +1,9 @@
-.EP {
-    display: flex;
-    justify-content: center;
-    color: rgb(217, 215, 221);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .row{
     color: rgb(218, 218, 218);
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     padding: 2%;
 }
 .img{
@@ -24,9 +19,7 @@
     text-decoration: none;
     border-radius: 50%;
   }
-.fa:hover{
-    color:whitesmoke;
-}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -50,3 +43,8 @@
   .flex-link{
       justify-content: space-between;
   }
+.album{
+    color: rgb(218, 218, 218);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
