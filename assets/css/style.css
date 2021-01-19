@@ -55,5 +55,6 @@
     color: whitesmoke;
     display: flex;
     justify-content: left;
+    margin-left: 0.75rem;
 }
 
