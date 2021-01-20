@@ -53,10 +53,14 @@
 }
 .contact{
     
-    font-family: 'Courier New', Courier, monospace;
-    color: whitesmoke;
+    font-size: 1rem;
+    color: #d39fdd;
+    font-family:'Open Sans', Arial, sans-serif;
+    opacity: 100%;
     text-align: center;
-    margin-left: 0.75rem;
+}
+#us {
+    font-size: 1.15rem;
 }
 .email{
     margin-top:1%;
@@ -72,6 +76,7 @@
     color: rgb(218, 218, 218);
 }
 #music{
+    font-weight: 520;
     font-size: 1.15rem;
     color: #d39fdd;
     font-family:'Open Sans', Arial, sans-serif;
