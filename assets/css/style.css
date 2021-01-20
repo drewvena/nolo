@@ -11,7 +11,8 @@
    
 }
 .fa {
-    color: whitesmoke;
+    color: #d39fdd;
+    opacity: 100%;
     padding: 2%;
     font-size: 30px;
     width: 30px;
@@ -45,8 +46,9 @@
       justify-content: space-between;
   }
 .album{
+    
     color: rgb(218, 218, 218);
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Open Sans', Arial, sans-serif;
     text-align: center;
 }
 .contact{
@@ -68,6 +70,11 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     color: rgb(218, 218, 218);
-   
-   
+}
+#music{
+    font-size: 1.15rem;
+    color: #d39fdd;
+    font-family:'Open Sans', Arial, sans-serif;
+    opacity: 100%;
+    text-align: center;
 }
