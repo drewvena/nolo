@@ -7,6 +7,7 @@
     padding: 2%;
 }
 .img{
+    margin-left: 1.75%;
     max-width: 99%;
    
 }
@@ -46,7 +47,8 @@
       justify-content: space-between;
   }
 .album{
-    
+    padding: 2%;
+    font-size: 1.25rem;
     color: rgb(218, 218, 218);
     font-family:'Open Sans', Arial, sans-serif;
     text-align: center;
