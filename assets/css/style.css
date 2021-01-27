@@ -93,18 +93,22 @@
     margin-left: 43%;
     margin-bottom: 4%;
 }
-#videos {
-    display: flex;
-    border-radius: 10%;
-    border: 1px solid #d39fdd;
-    margin: 5%;
-    padding: 4%;
-}
-.title{
-   text-align: center;
-    color: whitesmoke;
-    border: 1px solid white;
-    border-radius: 6%;
-    font-size: 1rem;
-    font-family:'Courier New', Courier, monospace;
+
+
+@media screen and (max-width: 575px){
+    #videos {
+        display: flex;
+        border-radius: 10%;
+        border: 1px solid #d39fdd;
+        margin: 5%;
+        padding: 4%;
+    }
+    .title{
+       text-align: center;
+        color: whitesmoke;
+        border: 1px solid white;
+        border-radius: 6%;
+        font-size: 1rem;
+        font-family:'Courier New', Courier, monospace;
+    }
 }
