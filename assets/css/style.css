@@ -5,8 +5,7 @@
     font-size: 1.25rem;
     font-family:'Courier New', Courier, monospace;
     padding: 5%;
-    Border: 1px solid whitesmoke;
-    border-radius: 3%;
+   
 }
 .img{
     margin-left: 1.75%;
@@ -60,21 +59,23 @@
     text-align: center;
 }
 .contact{
-    
+    border: 1px solid #d39fdd;
+    border-radius: 7%;
+    margin: 14%;
     font-size: 1rem;
     color: #d39fdd;
     font-family:'Open Sans', Arial, sans-serif;
     opacity: 100%;
     text-align: center;
+    padding: 4%;
 }
 #us {
     font-size: 1.15rem;
 }
 .email{
     margin-top:1%;
-    
     color: rgb(218, 218, 218);
-    font-size: larger;
+    font-size: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
 .phone{
