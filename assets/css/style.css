@@ -5,6 +5,8 @@
     font-size: 1.25rem;
     font-family:'Courier New', Courier, monospace;
     padding: 2%;
+    Border: 1px solid whitesmoke;
+    border-radius: 3%;
 }
 .img{
     margin-left: 1.75%;
@@ -20,6 +22,7 @@
     text-align: left;
     text-decoration: none;
     border-radius: 50%;
+    margin-left: 2%;
     
   }
 
@@ -32,13 +35,15 @@
   
 
   .responsive-iframe {
+    
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
     
   }
   .img-link{
@@ -78,11 +83,28 @@
     font-size: larger;
     color: rgb(218, 218, 218);
 }
-#music{
+.music{
     font-weight: 520;
     font-size: 1.15rem;
     color: #d39fdd;
     font-family:'Open Sans', Arial, sans-serif;
     opacity: 100%;
-    text-align: center;
+    align-content: center;
+    margin-left: 43%;
+    margin-bottom: 4%;
+}
+#videos {
+    display: flex;
+    border-radius: 10%;
+    border: 1px solid #d39fdd;
+    margin: 5%;
+    padding: 4%;
+}
+.title{
+   text-align: center;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 6%;
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
 }
