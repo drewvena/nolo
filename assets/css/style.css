@@ -8,10 +8,11 @@
    
 }
 .img{
-    margin-left: 1.75%;
     max-width: 99%;
-   
+   display: flex;
 }
+
+
 .fa {
     color: #d39fdd;
     opacity: 100%;
@@ -60,7 +61,6 @@
 }
 .contact{
     border: 1px solid #d39fdd;
-   
     margin: 14%;
     font-size: 1rem;
     color: #d39fdd;
@@ -69,19 +69,22 @@
     text-align: center;
     padding: 4%;
 }
+.or {
+    font-size: 1.08;
+}
 #us {
     font-size: 1.15rem;
 }
 .email{
     margin-top:1%;
     color: rgb(218, 218, 218);
-    font-size: 100%;
+    font-size: 1.08rem;
     font-family: 'Courier New', Courier, monospace;
 }
 .phone{
-    margin-top: 1%;
+    
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    font-size: 1.00rem;
     color: rgb(218, 218, 218);
 }
 .music{
