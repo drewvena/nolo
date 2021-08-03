@@ -1,0 +1,25 @@
+{
+  "name": "nolo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewvena/nolo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewvena/nolo/issues"
+  },
+  "homepage": "https://github.com/drewvena/nolo#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "i": "^0.3.6",
+    "mdb-ui-kit": "^3.9.0",
+    "npm": "^7.20.3"
+  }
+}
