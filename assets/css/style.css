@@ -2,5 +2,16 @@ img{
     margin-right: auto;
     width: 14%;
   }
-  
+  .videos{
+    width: 40%;
+  }
 
+  .container{
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+.parent{
+    
+}
