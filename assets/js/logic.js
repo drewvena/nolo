@@ -1,1 +1,5 @@
-var carousel = $(document).getElementById('#mycarousel')
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+
+

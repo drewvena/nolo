@@ -3,7 +3,8 @@ img{
     width: 14%;
   }
   .videos{
-    width: 40%;
+    width: 30%;
+    margin-top: 2%;
   }
 
   .container{
@@ -11,7 +12,22 @@ img{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
   }
-.parent{
+
+
+  .responsive-iframe {
     
+    width: 99%;
+
+    
+  }
+.responsive-iframes{
+    width: 49.5%;
+    padding: 1%;
+
+}
+.event-title{
+    width: 30%;
+    text-align: center;
 }
