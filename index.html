@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="shortcut icon"href="./images/favicon.ico" type="image/ico"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -14,17 +17,17 @@
 </head>
 <nav class="navbar navbar-light amber lighten-4">
   <a class="navbar-brand" href="#" ></a><img src="./images/nolocreep.png">
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Merch</a>
+        <a class="nav-link" href="#Videos">Videos</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,11 +43,20 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
+      <li class="nav-item">
+        <div class="container">
+          <div class="column">
+          <i class="fab fa-apple col-md-2"></i>
+          <i class="fab fa-spotify col-md-2"></i>
+          <i class="fab fa-youtube col-md-2"></i>
+          <i class="fab fa-tiktok col-md-2"></i>
+          <i class="fab fa-instagram col-md-2"></i>
+          <i class="fab fa-facebook col-md-2"></i>
+        </div>
+      </li>
     </ul>
-   
   </div>
 </nav>
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -71,12 +83,13 @@
     <span class="visually-hidden">Next</span>
   </a>
 </div>
-  
-<body>
-<div class="container">
+<div id="Videos" class="container">
   <img class="videos" src="./images/generatedtext (2).png">
 </div>
 <div class="container">
+  <div class="embed-responsive embed-responsive-16by9"></div>
+    <iframe class="embed-responsive-item" src="./videos/Roadkill promo.mp4" allowfullscreen></iframe>
+  </div>  
   <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/eMM2iXe2RYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div class="dual">
   <iframe class="responsive-iframes" width="560" height="315" src="https://www.youtube.com/embed/Po88ahNsdjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -89,6 +102,29 @@
   <div class="container">
     <img class="event-title" src="./images/generatedtext (4).png">
   </div>
+  <div class="container">
+   <p class="event-p">No Events Scheduled... Contact Nolo for booking</p>
+  </div>
 </section>
+<section class="contact">
+  <div class="container">
+    <img class="contact-title" src="images/contact.png">
+  </div>
+</section>
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">
+    <img src="./images/nologoog.png"class="d-inline-block align-left" alt="">
+<div class="d-inline-block align-right social-icons-bottom">
+  <i class="fab fa-apple"></i>
+  <i class="fab fa-spotify"></i>
+  <i class="fab fa-youtube"></i>
+  <i class="fab fa-tiktok"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-facebook"></i>
+</div>
+<p class="made">Made by Drew Vena (guitarist and singer in nolo)</p>
+<p class="copyright">&copy;Nolo 2021</p>
+</a>
+</nav>
 </body>
 </html>

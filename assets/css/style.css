@@ -1,12 +1,20 @@
 img{
     margin-right: auto;
-    width: 14%;
+    width: 18%;
+  }
+  .navbar-toggler{
+      border: 3px solid black;
   }
   .videos{
     width: 30%;
     margin-top: 2%;
   }
-
+.carousel{
+    width: 99%;
+}
+.contact-title{
+    width: 32%;
+}
   .container{
     padding: 2px;
     margin-left: auto;
@@ -30,4 +38,16 @@ img{
 .event-title{
     width: 30%;
     text-align: center;
+}
+.follow-title{
+    width: 40%;
+}
+.roadkill{
+    width: 99%;
+}
+/* .social-icons{
+  width: 99%;
+} */
+.social-icons-bottom{
+    display: inline-flex;
 }
