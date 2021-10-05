@@ -16,7 +16,12 @@ img{
     width: 32%;
 }
 .event1{
-    width: 70%;
+    width: 90%;
+}
+.ep{
+    font-size: 25px;
+    text-decoration: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
   .container{
     padding: 2px;
