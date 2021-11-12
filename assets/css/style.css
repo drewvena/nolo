@@ -9,10 +9,7 @@ img{
   .navbar-toggler{
       border: 3px solid black;
   }
-  .videos{
-    width: 30%;
-    margin-top: 2%;
-  }
+
 .carousel{
     width: 99%;
 }
@@ -37,8 +34,11 @@ img{
     text-align: center;
   }
   .responsive-iframe {
-    max-width: 99%;
-    min-width: 70%;
+    width: 80%;
+    border: 2px solid palevioletred;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom: 5%;
   }
 .event-title{
     width: 30%;
