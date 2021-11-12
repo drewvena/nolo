@@ -70,7 +70,8 @@ img{
 }
 
 .social-icons-bottom{
-    display: inline-flex;
+   text-align: center;
+   font-size: larger;
 }
 
 #envelope{
