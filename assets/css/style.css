@@ -33,6 +33,9 @@ img{
     margin-right: auto;
     text-align: center;
   }
+  .rodeo{
+      padding-top: 9%;
+  }
   .responsive-iframe {
     width: 80%;
     border: 2px solid palevioletred;
@@ -73,7 +76,8 @@ img{
 
 .social-icons-bottom{
    text-align: center;
-   font-size: larger;
+   font-size: x-large;
+   padding-top: 2%;
 }
 #envelope{
     color:black;
